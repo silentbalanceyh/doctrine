@@ -16,3 +16,6 @@
 ## 3.Exception异常信息
 
 1. [SQL Server错误表]()
+
+## 4.MMAP文件
+
