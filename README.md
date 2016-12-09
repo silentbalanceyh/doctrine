@@ -15,6 +15,7 @@
 1. [Maven环境配置](engine/maven/README.md)
 2. [Basic Implementation手册](engine/impl/BASIC.md)
 3. [JavaScript引擎文档](engine/impl/SCRIPT.md)
+4. [统一配置命名规则](engine/impl/NAMES.md)
 4. Develop开发文档
 	1. [Restful配置手册](engine/ws/1.RestfulConfiguration.md)
 	2. [OAuth接口手册](engine/ws/2.OAuthInterface.md)
