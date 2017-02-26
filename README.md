@@ -42,3 +42,10 @@
 5. [Restful标准接口说明](mmap/5.Restful标准接口说明.mmap)
 6. [Ruler的处理](mmap/6.Ruler的处理.mmap)
 7. [酒店管理RestfulApi](mmap/7.酒店管理RestfulApi.mmap)
+8. [控件配置表](mmap/8.控件配置表.mmap)
+9. [SEED架构](mmap/9.Seed架构.mmap)
+10. [基础数据整理](mmap/10.基础数据整理.mmap)
+
+## 5.Kelp教程
+
+[Kelp学习笔记](notes/README.md)
