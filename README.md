@@ -45,7 +45,3 @@
 8. [控件配置表](mmap/8.控件配置表.mmap)
 9. [SEED架构](mmap/9.Seed架构.mmap)
 10. [基础数据整理](mmap/10.基础数据整理.mmap)
-
-## 5.Kelp教程
-
-[Kelp学习笔记](notes/README.md)
