@@ -6,7 +6,7 @@
 
 ## ![](/engine/spec/component/img/op-003-02.JPG)3. Comments
 
-* 控件配置
+1. 控件配置
 
 * ```
   # ui.control
@@ -28,9 +28,13 @@
   ```
 
   * Required：必须配置的内容：
-    * data：配置Redux路径，告诉当前DataList
+    * data：配置Redux路径，告诉当前DataList数据从哪个路径中读取
+    * &lt;key&gt;：配置当前DataList中的列信息，类似List控件中的columns中的列配置
 
+1. 可选配置mapping
+   对于
 
+## 4. Development
 
 
 
