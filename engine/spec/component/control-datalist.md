@@ -6,26 +6,31 @@
 
 ## ![](/engine/spec/component/img/op-003-02.JPG)3. Comments
 
-1. 控件配置
+* 控件配置
 
-2. ```
-   # ui.control
-   ...
-   "spec":{
-       ...
-       "table":{
-           "data":{
-               "roomlist":["form","fmForm","values","orderItems"]
-           },
-           "roomlist":[
-               {
-                   ...
-               }
-               ...
-           ]
-       }
-   }
-   ```
+* ```
+  # ui.control
+  ...
+  "spec":{
+      ...
+      "table":{
+          "data":{
+              "roomlist":["form","fmForm","values","orderItems"]
+          },
+          "roomlist":[
+              {
+                  ...
+              }
+              ...
+          ]
+      }
+  }
+  ```
+
+  * Required：必须配置的内容：
+    * data：配置Redux路径，告诉当前DataList
+
+
 
 
 
