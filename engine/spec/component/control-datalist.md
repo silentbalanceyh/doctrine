@@ -14,10 +14,17 @@
    "spec":{
        ...
        "table":{
-        
+           "data":{
+               "roomlist":["form","fmForm","values","orderItems"]
+           },
+           "roomlist":[
+               {
+                   ...
+               }
+               ...
+           ]
        }
    }
-
    ```
 
 
