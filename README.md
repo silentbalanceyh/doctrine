@@ -26,7 +26,7 @@
 		1. [SQL Server类型表](engine/design/vector/MsSQL-TypeUpdates.xlsx)
 	3. [Vie OOB数据表](engine/design/vie-database.xlsx)
 	4. [OOB Restful](engine/design/ws-api.xlsx)
-6. [Specification规范文档](engine/spec/README.md)
+6. [Specification规范文档](engine/spec/component/README.md)
 
 ## 3.Exception异常信息
 
