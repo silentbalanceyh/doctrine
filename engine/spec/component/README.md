@@ -14,8 +14,8 @@
 
 ## 4.Op / Action
 
-1. [SPE40001：配置添加Field为List结构的按钮](op-fieldlist.md)
-2. [SPE40002：Field为List结构提交按钮弹出框验证](op-fieldlistvalidate.md)
+1. [SPC40001：配置添加Field为List结构的按钮](op-fieldlist.md)
+2. [SPC40002：Field为List结构提交按钮弹出框验证](op-fieldlistvalidate.md)
 
 ## 5.Validate Rule
 
