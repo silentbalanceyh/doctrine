@@ -4,7 +4,7 @@
 
 ## 1.1.Basic Control
 
-1. \[SPE10001：配置子表单中的DataList表格\]\(control-datalist.md\)
+1. [SPE10001：配置子表单中的DataList表格](/engine/spec/component/control-datalist.md)
 
 ## 1.2.Monitored Control
 
