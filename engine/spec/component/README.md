@@ -11,7 +11,7 @@
 ## 2.Field
 
 1. [UCA20001：field.TextBox](/engine/spec/component/field-textbox.md)
-2. UCA20002：field.RemoteCombo
+2. [UCA20002：field.RemoteCombo](/engine/spec/component/field-remotecombo.md)
 
 ## 3.Column
 
