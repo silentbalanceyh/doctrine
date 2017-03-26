@@ -35,44 +35,52 @@
       ```
    2. valueType：可选，对于特殊的一些Id，默认为String类型，如果执行JS中的比较时需要设置valueType，支持的值为number和string，目前主要是ID为数值的字段需要该类型
    3. value/display：下拉专用配置，用于设置字段信息
-5. Remote专用配置（ingest节点）
-   1. uri：远程的uri信息
-   2. input：输入的参数信息，该参数信息对应路径以monitor中的数据为主
-      ```
-      "ajouter":{
-          "monitor":{
-              "roomTypeId":["form","fmRoomForm","values","roomTypeId"]
-          },
-          "form":"fmRoomForm"
-          ...
-      },
-      "ingest":{
-          "uri":"/htl/code-room/q/type/:roomTypeId",
-          "input":{
-              "roomTypeId":["monitor","roomTypeId"]
-          }
-      }
-      ```
 
-      注意远程配置中的对应关系，传递关系为：**Redux State -&gt; Monitor -&gt; Input**，也就是说上述配置可以按照下边部分配置：
+## 3. Remote Ingest
 
-      ```
-      "ajouter":{
-          "monitor":{
-              "monitorField":["form","fmRoomForm","values","reduxField"]
-          }
-          ...
-      },
-      "ingest":{
-          "input":{
-              "inputField":["monitor","monitorField"]
-          }
-      }
-      ```
+Remote专用配置（ingest节点）
 
-      reduxField：状态树上的字段信息；  
-      monitorField：监控的字段信息，该字段信息可直接引用  
-      inputField：远程ingest的参数名称信息；
+1. uri：远程的uri信息
+2. input：输入的参数信息，该参数信息对应路径以monitor中的数据为主
+3. method：默认GET，可选配置，远程API的HTTP方法
+
+**关于ingest的特殊说明**
+
+```
+   "ajouter":{
+       "monitor":{
+           "roomTypeId":["form","fmRoomForm","values","roomTypeId"]
+       },
+       "form":"fmRoomForm"
+       ...
+   },
+   "ingest":{
+       "uri":"/htl/code-room/q/type/:roomTypeId",
+       "input":{
+           "roomTypeId":["monitor","roomTypeId"]
+       }
+   }
+```
+
+注意远程配置中的对应关系，传递关系为：**Redux State -&gt; Monitor -&gt; Input**，也就是说上述配置可以按照以下片段配置：
+
+```
+   "ajouter":{
+       "monitor":{
+           "monitorField":["form","fmRoomForm","values","reduxField"]
+       }
+       ...
+   },
+   "ingest":{
+       "input":{
+           "inputField":["monitor","monitorField"]
+       }
+   }
+```
+
+* reduxField：状态树上的字段信息；
+* monitorField：监控的字段信息，该字段信息可直接引用
+* inputField：远程ingest的参数名称信息；
 
 
 
