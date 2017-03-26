@@ -18,8 +18,10 @@
 4. 风格专用
    1. style：可将该style信息应用于input组件，所有组件都通用
 5. 当前组件专用配置
+
    ```
    "ajouter":{
+       ...
        "monitor":{
            "attriveTime":["form","fmRoomForm","values","attriveTime"],
            "leaveTime":["form","fmRoomRoom","values","leaveTime"]
@@ -27,13 +29,17 @@
        "duration":{
            "from":"arriveTime",
            "to":"leaveTime"
-       }
+       },
+       "limitation":{
+           "attriveTime":"days",
+           "leaveTime":"days"
+       },
+       "pattern":"YYYY-MM-DD HH:mm",
+       "mode":"days"
    }
    ```
 
    1. monitor：计算duration的开
-
-
 
 
 
