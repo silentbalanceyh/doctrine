@@ -6,7 +6,16 @@
 
 ## 2. Comments
 
-
+1. 共享专用配置（所有的Field都有的配置）
+   1. type：必须为field.RemoteCombo
+   2. cid：在当前Page唯一，如果有多个Form的时候也必须唯一
+   3. name：字段名称，在当前Form中必须唯一（推荐在Page唯一）
+2. FieldSet专用（在FieldSet Form中inline失效）
+   1. fieldset：面板名称
+   2. location：当前字段所在位置
+3. 风格专用
+   1. style：可将该style信息应用于input组件，所有组件都通用
+4. monitor专用
 
 
 
