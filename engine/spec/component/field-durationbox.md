@@ -10,7 +10,9 @@
    1. type：必须为field.RemoteCombo
    2. cid：在当前Page唯一，如果有多个Form的时候也必须唯一
    3. name：字段名称，在当前Form中必须唯一（推荐在Page唯一）
-2. 3. FieldSet专用（在FieldSet Form中inline失效）
+2. 提示信息专用
+   1. unit：计量单位信息
+3. FieldSet专用（在FieldSet Form中inline失效）
    1. fieldset：面板名称
    2. location：当前字段所在位置
 4. 风格专用
