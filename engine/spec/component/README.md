@@ -24,7 +24,9 @@
 
 ## 5.Validate Rule
 
-1. SPC
+s
+
+
 
 
 
