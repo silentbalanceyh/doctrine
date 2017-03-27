@@ -18,6 +18,7 @@
 6. [UCA20006：field.PositiveBox](/engine/spec/component/field-positivebox.md)
 7. [UCA20007：field.TabularDrop](/engine/spec/component/field-tabulardrop.md)
 8. [UCA20008：field.CurrencyBox](/engine/spec/component/field-currencybox.md)
+9. [UCA20009：field.ListSelector](/engine/spec/component/field-listselector.md)
 
 ## 3.Column
 
