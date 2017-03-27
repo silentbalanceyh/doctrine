@@ -8,7 +8,7 @@
 
 共享配置说明参考：[UCA20001：共享配置说明](/engine/spec/component/field-shared.md)
 
-* 顶层：cid, name, type = **"field.CurrencyBox"**
+* 顶层：cid, name, type = **"field.ListSelector"**
 * 提示类：label, hint, tips
 * 必填/可选：asterisk = \( required/optional \)
 * 图标/单位：icon, unit, position = \( left/right \)
