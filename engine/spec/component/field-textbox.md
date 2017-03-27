@@ -6,6 +6,8 @@
 
 ## 2. Attributes
 
+共享配置说明参考：UCA40001：
+
 1. 顶层配置（位于配置属性的顶层配置）
    1. type：必须为field.TextBox
    2. cid：在当前Page唯一，如果有多个Form的时候也必须唯一
