@@ -4,21 +4,24 @@
 
 ![](/engine/spec/component/img/field-002-01.JPG)
 
-## 2. Comments
+## 2. Attributes
 
-1. 共享专用配置（所有的Field都有的配置）
-   1. type：必须为field.RemoteCombo
-   2. cid：在当前Page唯一，如果有多个Form的时候也必须唯一
-   3. name：字段名称，在当前Form中必须唯一（推荐在Page唯一）
-2. FieldSet专用（在FieldSet Form中inline失效）
-   1. fieldset：面板名称
-   2. location：当前字段所在位置
-3. 当前组件专用配置
+共享配置说明参考：[UCA20001：共享配置说明](/engine/spec/component/field-shared.md)
+
+* 顶层：cid, name, type = **"field.RemoteCombo"**
+* 提示类：label, hint, tips
+* 必填/可选：asterisk = \( required/optional \)
+* 图标/单位：icon, unit, position = \( left/right \)
+* 布局信息：inline, fieldset, location
+
+## 3. Special
+
+1. 当前组件专用配置
    1. form：定义当前字段最终所属的Form，最终变更值的时候会充填这个Form中的字段信息
    2. monitor：定义当前字段监控的值信息，字段更新条件主要包括：
       1. monitor部分的数据发生了变化
       2. current部分的数据没有加载的时候，即当前值在undefined的时候
-4. 可选配置
+2. 可选配置
    1. expr：可选，display部分是否可支持表达式类型，如果可支持表达式类型则expr为true，这个属性可用于大部分组件，并不是当前组件专用
       ```
       "ajouter":{
