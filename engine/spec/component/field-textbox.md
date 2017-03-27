@@ -6,7 +6,7 @@
 
 ## 2. Shared Attributes
 
-1. 共享专用配置（所有的Field都有的配置）
+1. 顶层配置（所有的Field都有的必须配置）
    1. type：必须为field.TextBox
    2. cid：在当前Page唯一，如果有多个Form的时候也必须唯一
    3. name：字段名称，在当前Form中必须唯一（推荐在Page唯一）
