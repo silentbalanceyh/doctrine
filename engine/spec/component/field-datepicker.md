@@ -13,18 +13,14 @@
 2. FieldSet专用（在FieldSet Form中inline失效）
    1. fieldset：面板名称
    2. location：当前字段所在位置
-3. 提示信息专用  
-   1. label：左边显示的标签文本  
-   2. hint：提示信息（水印提示效果）  
-   3. tips：浮游提示效果  
-   4. asterisk：（required \| optional ）提示信息（本来是前置的必填输入，转换成hint=（必填））
-
-4. Icon图标位置  
-   1. icon：图标类型  
+3. 提示信息专用
+   1. label：左边显示的标签文本
+   2. hint：提示信息（水印提示效果）
+   3. tips：浮游提示效果
+   4. asterisk：（required \| optional ）提示信息（本来是前置的必填输入，转换成hint=（必填）
+4. Icon图标位置
+   1. icon：图标类型
    2. position：（left \| right）图标位置
-
-5. 字段布局配置  
-   1. inline：（FieldSet中只能为inline，横向排列字段信息）
-
+5. 
 
 
