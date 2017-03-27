@@ -8,7 +8,9 @@
 
 ### 2.0. 顶层配置
 
-
+* **type**：当前控件专用的类型信息，对应UCA信息
+* **name**：当前控件对应的name信息，注册Form时放入到input标签中的name属性里（不可重复）
+* **cid**：当前控件对应的id信息，推荐一个Page中不重复，jQuery调用基于cid执行：Control ID
 
 ### 2.1. 提示类
 
