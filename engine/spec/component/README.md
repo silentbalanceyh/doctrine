@@ -15,6 +15,7 @@
 3. [UCA20003：field.RemoteCombo](/engine/spec/component/field-remotecombo.md)
 4. [UCA20004：field.DurationBox](/engine/spec/component/field-durationbox.md)
 5. [UCA20005：field.DatePicker](/engine/spec/component/field-datepicker.md)
+6. UCA20006：field.PositiveBox
 
 ## 3.Column
 
