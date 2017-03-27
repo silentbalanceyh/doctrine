@@ -10,10 +10,11 @@
 
 ## 2.Field
 
-1. [UCA20001：field.TextBox](/engine/spec/component/field-textbox.md)
-2. [UCA20002：field.RemoteCombo](/engine/spec/component/field-remotecombo.md)
-3. [UCA20003：field.DurationBox](/durationbox)
-4. [UCA20004：field.DatePicker](/engine/spec/component/field-datepicker.md)
+1. UCA20005：共享配置说明
+2. [UCA20001：field.TextBox](/engine/spec/component/field-textbox.md)
+3. [UCA20002：field.RemoteCombo](/engine/spec/component/field-remotecombo.md)
+4. [UCA20003：field.DurationBox](/durationbox)
+5. [UCA20004：field.DatePicker](/engine/spec/component/field-datepicker.md)
 
 ## 3.Column
 
