@@ -10,7 +10,7 @@
 
 ## 2.Field
 
-1. UCA20005：共享配置说明
+1. [UCA20005：共享配置说明](/engine/spec/component/field-shared.md)
 2. [UCA20001：field.TextBox](/engine/spec/component/field-textbox.md)
 3. [UCA20002：field.RemoteCombo](/engine/spec/component/field-remotecombo.md)
 4. [UCA20003：field.DurationBox](/durationbox)
