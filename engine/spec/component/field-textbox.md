@@ -6,7 +6,7 @@
 
 ## 2. Attributes
 
-共享配置说明参考：UCA40001：
+共享配置说明参考：[UCA20001：共享配置说明](/engine/spec/component/field-shared.md)
 
 1. 顶层配置（位于配置属性的顶层配置）
    1. type：必须为field.TextBox
