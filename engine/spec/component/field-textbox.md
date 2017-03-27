@@ -4,7 +4,7 @@
 
 ![](/engine/spec/component/img/field-001-01.JPG)
 
-## 2. Comments
+## 2. Shared Attributes
 
 1. 共享专用配置（所有的Field都有的配置）
    1. type：必须为field.TextBox
