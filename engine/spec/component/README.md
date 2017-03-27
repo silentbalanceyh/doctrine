@@ -17,6 +17,7 @@
 5. [UCA20005：field.DatePicker](/engine/spec/component/field-datepicker.md)
 6. [UCA20006：field.PositiveBox](/engine/spec/component/field-positivebox.md)
 7. [UCA20007：field.TabularDrop](/engine/spec/component/field-tabulardrop.md)
+8. [UCA20008：field.CurrencyBox](/engine/spec/component/field-currencybox.md)
 
 ## 3.Column
 

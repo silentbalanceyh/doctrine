@@ -22,5 +22,7 @@
 
 * **value/display**：下拉框中显示对应的字段以及值对应的字段信息
 
+_\*：和`field.RemoteCombo`一样display可支持expr=true的呈现模式，即支持Expression的方式呈现对应信息。_
+
 
 
