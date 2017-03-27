@@ -1,8 +1,8 @@
-# UCA20002：field.TextBox
+# UCA20008：field.CurrencyBox
 
 ## 1. Tree Map
 
-![](/engine/spec/component/img/field-001-01.JPG)
+![](/engine/spec/component/img/field-008-01.JPG)
 
 ## 2. Attributes
 
