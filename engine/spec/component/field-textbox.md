@@ -4,7 +4,7 @@
 
 ![](/engine/spec/component/img/field-001-01.JPG)
 
-## 2. Shared Attributes
+## 2. Attributes
 
 1. 顶层配置（位于配置属性的顶层配置）
    1. type：必须为field.TextBox
