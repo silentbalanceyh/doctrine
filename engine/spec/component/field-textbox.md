@@ -23,7 +23,7 @@
    1. icon：图标类型  
    2. position：（left \| right）图标位置
 
-5. 字段布局配置
+5. 字段布局配置  
    1. inline：（FieldSet中只能为inline，横向排列字段信息）
 
 
