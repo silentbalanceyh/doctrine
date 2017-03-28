@@ -13,6 +13,7 @@
 ### 1.2. Third-Part
 
 1. [ECMA 6.0](training/js/1.ECMA6.md)
+2. [Moment.js 2.18.1](/training/js/2.Moment.md)
 
 ## 2.Vie/Rtv专用文档
 
