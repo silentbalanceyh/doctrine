@@ -10,7 +10,7 @@
 
 1. [Java基础教程](training/java/README.md)
 
-### 1.2. JavaScript
+### 1.2. Third-Part
 
 1. [ECMA 6.0](training/js/1.ECMA6.md)
 
