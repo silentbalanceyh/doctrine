@@ -20,7 +20,7 @@
 
 ### 2.3. 必填可选
 
-* **asterisk：**支持两个值——required/optional
+* **asterisk**：支持两个值——required/optional
 
 ### 2.4. 图标/单位
 
