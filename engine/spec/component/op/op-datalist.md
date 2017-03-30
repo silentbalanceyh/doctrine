@@ -19,11 +19,12 @@
                ...
                {
                    // Required & Shared
-                   "field":"rowIndex",
+                   "field":"$INDEX$",
                    "type":"cell.LinkBar",
                    "cid":"colRowIndex",
 
                    // Required
+                   "field":"$INDEX$",
                    "remove":{
                        "form":"fmForm",
                        "field":"orderItems"
