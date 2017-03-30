@@ -25,9 +25,6 @@
         "arriveTime":["form","fmRoomForm","values","arriveTime"],
         "insideDays":["form","fmRoomForm","values","insideDays"]
     },
-    "limitation":{
-        "attriveTime":"days"
-    },
     "calculate":{
         "start":"arriveTime",
         "duration":"insideDays"
@@ -35,6 +32,10 @@
     "mode":"days"
 }
 ```
+
+* **format**：当前时间控件专用，设置日期部分和事件部分格式
+* **monitor：**计算目标时间所需要的字段信息
+* **limitation：**计算事件过程中，
 
 
 
