@@ -16,7 +16,27 @@
 
 ## 3. Special
 
-
+```
+"ajouter":{
+    "monitor":{
+        "roomTypeId":["form","fmRoomForm", "values","roomTypeId"],
+        "arriveTime":["form","fmRoomForm", "values","arriveTime"]
+    },
+    "mode":"days",
+    "datefield":["arriveTime"],
+    "add-on":{
+        "hidden":"hdRoomCounter",
+        "label":{
+            "id":"lblRoomCounter",
+            "style":{
+                "marginLeft":"20px",
+                "color":"red"
+            }
+        }
+    },
+    "maxlength":2
+}
+```
 
 
 
