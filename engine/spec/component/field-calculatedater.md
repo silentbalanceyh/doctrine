@@ -2,7 +2,9 @@
 
 ## 1. Tree Map
 
-## ![](/engine/spec/component/img/field-010-01.JPG)2. Attributes
+![](/engine/spec/component/img/field-010-01.JPG)
+
+## 2. Attributes
 
 共享配置说明参考：[UCA20001：共享配置说明](/engine/spec/component/field-shared.md)
 
@@ -35,7 +37,8 @@
 
 * **format**：当前时间控件专用，设置日期部分和事件部分格式
 * **monitor：**计算目标时间所需要的字段信息
-* **limitation：**计算事件过程中，
+* **calculate：**计算因子，使用开始时间字段和结束事件字段计算当前事件
+* **mode**：决定了duration的模式，单位信息：年、月、日、时、分、秒、毫秒
 
 
 
