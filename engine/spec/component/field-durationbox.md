@@ -2,7 +2,7 @@
 
 ## 1. Tree Map
 
-![](/engine/spec/component/img/field-003-01.JPG)
+![](/engine/spec/component/img/field-009-01.JPG)
 
 ## 2. Attributes
 
@@ -27,20 +27,15 @@
         "from":"arriveTime",
         "to":"leaveTime"
     },
-    "limitation":{
-        "attriveTime":"days",
-        "leaveTime":"days"
-    },
     "pattern":"YYYY-MM-DD HH:mm",
     "mode":"days"
 }
 ```
 
 1. **monitor**：计算duration所需要的时间字段信息
-2. **limitation**：计算时间字段时变更的限制条件，如果是days则表示仅仅是天发生改变的时候触发重算，值根据Moment.js中支持的值来处理
-3. **duration**：专用配置，仅包含from和to两个键值，from表示开始，to表示结束
-4. **pattern**：解析时间格式用的pattern
-5. **mode**：计算时用的维度，时间计算维度包括：年、月、日、时、分、秒
+2. **duration**：专用配置，仅包含from和to两个键值，from表示开始，to表示结束
+3. **pattern**：解析时间格式用的pattern
+4. **mode**：计算时用的维度，时间计算维度包括：年、月、日、时、分、秒
 
 
 
