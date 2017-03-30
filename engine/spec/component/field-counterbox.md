@@ -42,8 +42,8 @@
 
 * **monitor：**当前组件需要使用的字段信息
 * **mode**：字段时间使用的mode，这个值会统一设置，所以设置最低要求即可
-* **add-on：**挂载组件设置，支持三个key：hidden、label、dropdown；分别表示三个不同的组件，这三个组件对应下边的output配置
-* **maxlength：**数值框必须的属性，用于表示当前数值的位数
+* **add-on**：挂载组件设置，支持三个key：hidden、label、dropdown；分别表示三个不同的组件，这三个组件对应下边的output配置
+* **maxlength**：数值框必须的属性，用于表示当前数值的位数
 
 ### 4. Remote
 
