@@ -20,7 +20,7 @@
                    "field":"rowIndex",
                    "type":"cell.LinkBar",
                    "cid":"colRowIndex",
-                
+
                    // Required
                    "remove":{
                        "form":"fmForm",
@@ -41,8 +41,6 @@
      * edit：编辑按钮，form表示点击了编辑过后当前记录数据需要填充到哪个form
 
 ## 4. Development
-
-
 
 
 
