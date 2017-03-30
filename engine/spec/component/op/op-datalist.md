@@ -2,7 +2,9 @@
 
 ## 1. Example
 
-## ![](/engine/spec/component/img/op-004-01.png)2. Tree Map
+![](/engine/spec/component/img/op-004-01.png)
+
+## 2. Tree Map
 
 ## ![](/engine/spec/component/img/op-004-02.JPG)3. Comments
 
