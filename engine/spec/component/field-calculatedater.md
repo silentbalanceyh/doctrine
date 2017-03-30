@@ -14,5 +14,27 @@
 
 ## 3. Special
 
+```
+"ajouter":{
+    ...
+    "format":{
+        "date":"YYYY-MM-DD",
+        "time":"HH:mm"
+    },
+    "monitor":{
+        "arriveTime":["form","fmRoomForm","values","arriveTime"],
+        "insideDays":["form","fmRoomForm","values","insideDays"]
+    },
+    "limitation":{
+        "attriveTime":"days"
+    },
+    "calculate":{
+        "start":"arriveTime",
+        "duration":"insideDays"
+    },
+    "mode":"days"
+}
+```
+
 
 
