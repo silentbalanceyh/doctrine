@@ -2,15 +2,13 @@
 
 ## 1.Example
 
-![02](img/op-002-01.png)
+![](/engine/spec/component/img/op-002-01.png)
 
 验证效果：
 
-![02](img/op-002-02.JPG)
+![](/engine/spec/component/img/op-002-02.JPG)
 
-## 2.Tree Map
-
-![02](img/op-002-03.JPG)
+## 2.Tree Map![](/engine/spec/component/img/op-002-03.JPG)
 
 ## 3.Comments
 
